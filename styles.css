@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grid-container {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    justify-content: center;
+    width: 1400px;
+    height: 600px;
+    background-color: rgb(51, 49, 49);
+    color: white;
+}
+.second-container {
+    
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 1400px;
+    height: 500px;
+    background-color: rgb(240, 240, 232);
+    
+}
+.box-container, .quote-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 10px;
+       
+}
+
+.quote-container {
+    flex-direction: column;
+}
+
+.rand-info {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 40px;    
+}
+
+.quote {
+    text-align: left;
+    color: blue;
+    font-size: 46px;
+    padding-top: 150px;
+    font-weight: 300;
+    font-style: italic;    
+}
+
+.quote-src {
+    text-align: right;
+    color: rgb(12, 12, 65);
+    font-size: 20px;
+    padding-right: 40px;
+    font-weight: 600;
+    font-style: italic;
+    
+}
+
+#box1, #box2 {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+#box1 {
+    border: solid 1px blue;
+    border-radius: 25px;
+}
+
+.third-container {
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 1400px;
+    height: 500px;
+    background-color: rgba(209, 209, 204, 0.884);
+}
+
+.forth-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 1400px;
+    height: 300px;
+    background-color: rgb(245, 245, 237);
+}
+
+.call-to-action {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    width: 75%;
+    height: 125px;
+    background-color: rgb(52, 132, 206);
+    border-radius: 10px;
+    border-color: azure;
+}
+
+.grid {
+    display: flex;
+    background-color: rgb(51, 49, 49);
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1000px;
+    margin: 20px 0px;
+    
+}
+
+.grid-item {
+    display: flex;
+    width: 480px;
+    padding-bottom: 10px;
+}
+
+.item-one {
+    display: flex;
+    justify-content:space-between;
+    height: 200px;
+    margin: 0;
+    padding-top: 10px;
+    
+}
+
+.item-two {
+    height: 300px;
+    margin: 0;
+    padding-top: 10px;
+    flex-direction: column;
+}
+.item-two-image{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(158, 158, 163);
+    color: beige;
+    align-content: center;
+}
+.link-one{
+    margin-left: 80px;
+}
+
+.signup{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 750;
+    font-size: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    border-color: beige;
+}
+.signup2{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 750;
+    font-size: 20px;
+    background-color: rgb(52, 132, 206);
+    border-radius: 10px;
+    border-color: beige;
+}
+.content-one{
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: beige;
+    font-size: 20px;
+    font-style: italic;
+    height: 25px;
+    padding: 20px;
+}
